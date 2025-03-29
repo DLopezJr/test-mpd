@@ -23,3 +23,4 @@ mkdir -p $HOME/Music/state
 
 ## audio_output ""
 
+# cat /dev/urandom
