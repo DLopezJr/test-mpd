@@ -46,3 +46,10 @@ audio_output {
         type "alsa"
         name "ALSO"
 }
+
+---
+
+workflow
+- mpd
+- mpc add /
+- mpc play
