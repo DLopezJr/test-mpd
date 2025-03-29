@@ -18,6 +18,7 @@ mkdir -p $HOME/Music/state
 ## log_file "syslog"
 ## state_file "~/Music/state
 ## sticker_file COMMENT_OUT
+## bind_to_address
 ## log_level "verbose"
 ## auto_update "yes"
 
