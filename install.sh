@@ -25,3 +25,24 @@ mkdir -p $HOME/Music/state
 ## audio_output ""
 
 # cat /dev/urandom
+
+
+-------------
+
+# Recommended location for database; autocreates it
+db_file            "~/.config/mpd/database"
+
+# The music directory is by default the XDG directory, uncomment to amend and choose a different directory
+music_directory    "~/Music"
+
+# Uncomment to refresh the database whenever files in the music_directory are changed
+auto_update "yes"
+
+bind_to_address "localhost"
+port "6600"
+log_level "verbose"
+
+audio_output {
+        type "alsa"
+        name "ALSO"
+}
