@@ -50,8 +50,16 @@ log_level "verbose"
 #}
 
 audio_output {
-        type    "pipewire"
-        name    "Pipewirey"
+        type    "pulse"
+        name    "PULSER"
+}
+
+audio_output {
+    type            "fifo"
+    name            "my pipe"
+    path            "/tmp/snapfifo"
+    format          "48000:16:2"
+    mixer_type      "software"
 }
 
 ---
