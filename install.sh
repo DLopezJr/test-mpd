@@ -68,3 +68,7 @@ workflow
 - mpd
 - mpc add /
 - mpc play
+
+---
+# SNAPCAST
+# https://github.com/badaix/snapcast/releases/download/v0.31.0/snapclient_0.31.0-1_amd64_bookworm_with-pulse.deb
