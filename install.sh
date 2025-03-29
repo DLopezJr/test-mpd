@@ -44,9 +44,14 @@ port "6600"
 
 log_level "verbose"
 
+#audio_output {
+#        type "alsa"
+#       name "ALSO"
+#}
+
 audio_output {
-        type "alsa"
-        name "ALSO"
+        type    "pipewire"
+        name    "Pipewirey"
 }
 
 ---
