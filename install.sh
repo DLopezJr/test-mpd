@@ -40,8 +40,8 @@ auto_update "yes"
 
 bind_to_address "localhost"
 # bind_to_address "${DEVICE_IP}"
-
 port "6600"
+
 log_level "verbose"
 
 audio_output {
